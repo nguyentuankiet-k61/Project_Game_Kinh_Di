@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCasting : MonoBehaviour
 {
-    public static float  DistanceFromTarget;
+    public static float DistanceFromTarget;
     public float totarget;
     // Update is called once per frame
     void Update()

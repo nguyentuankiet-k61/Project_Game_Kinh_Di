@@ -1,12 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DoorOpen : MonoBehaviour
 {
-
     public float theDistance;
     public GameObject ActionDisplay;
     public GameObject ActionText;
@@ -18,28 +16,29 @@ public class DoorOpen : MonoBehaviour
         theDistance = PlayerCasting.DistanceFromTarget;
 
     }
-    void OnMouseOver()
+     void OnMouseOver()
     {
         if(theDistance<3)
         {
             ActionDisplay.SetActive(true);
             ActionText.SetActive(true);
         }
-if (Input.GetButtonDown("Action"))
-{
-    if (theDistance < 3)
+        if (Input.GetButtonDown("Action"))
+        {
+            if(theDistance<3)
+            {
+                this.GetComponent<BoxCollider>().enabled = false;
+                ActionDisplay.SetActive(false);
+                ActionText.SetActive(false);
+                TheDoor.GetComponent<Animation>().Play("DoorOpen01");
+                sound.Play();
+            }
+            
+        }
+    }
+     void OnMouseExit()
     {
-        this.GetComponent<BoxCollider>().enabled = false;
         ActionDisplay.SetActive(false);
         ActionText.SetActive(false);
-        TheDoor.GetComponent<Animation>().Play("DoorOpen01");
-        sound.Play();
     }
-}
-    }
-    void OnMouseExit()
-{
-    ActionDisplay.SetActive(false);
-    ActionText.SetActive(false);
-}
 }

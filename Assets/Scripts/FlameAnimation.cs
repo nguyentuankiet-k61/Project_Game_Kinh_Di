@@ -4,31 +4,31 @@ using UnityEngine;
 
 public class FlameAnimation : MonoBehaviour
 {
+    public int LightMode;//nut cong tac
+    public GameObject FlameLight; //doi tuogn anh sang
 
-    public int LightMode;//nut cong tac 
-    public GameObject Flamelight; //doi tuong anh sang
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (LightMode == 0)
-            StartCoroutine(Animatelight());
-
+        {
+            StartCoroutine(AnimateLight());
+        }
     }
-    IEnumerator Animatelight()
+    IEnumerator AnimateLight()
     {
-        LightMode = Random.Range(1, 4);
+        LightMode = Random.Range(1,4);
         if (LightMode == 1)
         {
-            Flamelight.GetComponent<Animation>().Play("TorchAnim01");
+            FlameLight.GetComponent<Animation>().Play("TorchAnim01");
         }
         if (LightMode == 2)
         {
-            Flamelight.GetComponent<Animation>().Play("TorchAnim02");
+            FlameLight.GetComponent<Animation>().Play("TorchAnim02");
         }
         if (LightMode == 3)
         {
-            Flamelight.GetComponent<Animation>().Play("TorchAnim03");
+            FlameLight.GetComponent<Animation>().Play("TorchAnim03");
         }
         yield return new WaitForSeconds(0.99f);
         LightMode = 0;
