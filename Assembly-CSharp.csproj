@@ -56,12 +56,20 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
     <Compile Include="Assets\Scripts\DoorOpen.cs" />
+    <Compile Include="Assets\Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\FlameAnimation.cs" />
     <Compile Include="Assets\Scripts\Sequences\Sequences_01.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
     <Compile Include="Assets\Scripts\Sequences\FirstTrigger.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
