@@ -361,12 +361,14 @@
 "Assets/Scripts/FirePistol.cs"
 "Assets/Scripts/FlameAnimation.cs"
 "Assets/Scripts/GlobaAmmo.cs"
+"Assets/Scripts/Menus/SplashToMenu.cs"
 "Assets/Scripts/PickUpPistol.cs"
 "Assets/Scripts/PlayerCasting.cs"
 "Assets/Scripts/Sequences/CubeTrigger.cs"
 "Assets/Scripts/Sequences/CubeTrigger01.cs"
 "Assets/Scripts/Sequences/FirstTrigger.cs"
 "Assets/Scripts/Sequences/Sequences_01.cs"
+"Assets/Scripts/ZombieDeadth.cs"
 -langversion:9.0
 
 /deterministic

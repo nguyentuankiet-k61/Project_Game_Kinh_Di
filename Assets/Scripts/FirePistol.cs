@@ -8,6 +8,8 @@ public class FirePistol : MonoBehaviour
     public GameObject BulletFlash;
     public AudioSource GunFire;
     public bool isFiring = false;
+    public float targetDistance;//khoang cach ban duoc 
+    public int damageAmount = 5;//dame moi lan ban
   
 
     // Update is called once per frame
@@ -24,7 +26,13 @@ public class FirePistol : MonoBehaviour
     }
     IEnumerator firePistol()
     {
+        RaycastHit hit;
         isFiring = true;
+        if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit) )
+        {
+            targetDistance = hit.distance;
+            hit.transform.SendMessage("DamageZombie", damageAmount, SendMessageOptions.DontRequireReceiver);
+        }
         TheGun.GetComponent<Animation>().Play("PistolShoot");
         BulletFlash.SetActive(true);
         BulletFlash.GetComponent<Animation>().Play("BulletFlash");
