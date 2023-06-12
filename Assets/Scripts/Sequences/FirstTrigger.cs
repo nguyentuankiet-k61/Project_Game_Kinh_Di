@@ -16,8 +16,8 @@ public class FirstTrigger : MonoBehaviour
     IEnumerator ScencePlayer()
     {
         
-        TextBox.GetComponent<Text>().text = "Hãy nhìn vào dấu mũi tên";
-        yield return new WaitForSeconds(2f);
+        TextBox.GetComponent<Text>().text = "Hãy nhìn vào dấu mũi tên phía trước!";
+        yield return new WaitForSeconds(2.5f);
         TextBox.GetComponent<Text>().text = "";
         PlayerScripts.GetComponent<FirstPersonController>().enabled = true;
         GuideArrow.SetActive(true);
