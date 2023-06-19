@@ -15,7 +15,7 @@ D:/Lập trình game/Game_Kinh_Dị3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-5028
+5276
 Successfully changed project path to: D:/Lập trình game/Game_Kinh_Dị3D
 D:/Lập trình game/Game_Kinh_Dị3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Lập trình game/Game_Kinh_Dị3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21248] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1104628934 [EditorId] 1104628934 [Version] 1048832 [Id] WindowsEditor(7,KuToo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7948] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1561090856 [EditorId] 1561090856 [Version] 1048832 [Id] WindowsEditor(7,KuToo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21248] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1104628934 [EditorId] 1104628934 [Version] 1048832 [Id] WindowsEditor(7,KuToo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7948] Host "[IP] 192.168.1.48 [Port] 0 [Flags] 2 [Guid] 1561090856 [EditorId] 1561090856 [Version] 1048832 [Id] WindowsEditor(7,KuToo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 119.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path D:/KuToo/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,44 +67,736 @@ Initialize mono
 Mono path[0] = 'D:/KuToo/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/KuToo/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/KuToo/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/KuToo/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/KuToo/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.435470 seconds.
+Registered in 0.010793 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.795 seconds
+- Completed reload, in  0.764 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8796ms)
-		BeginReloadAssembly (6294ms)
+	ReloadAssembly (764ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1524ms)
-			LoadAssemblies (6294ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (974ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (423ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
+				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011028 seconds.
+Registered in 0.012046 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1234ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (927ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3571.
+Memory consumption went from 124.7 MB to 124.5 MB.
+Total: 3.945400 ms (FindLiveObjects: 0.545400 ms CreateObjectMapping: 0.178700 ms MarkObjects: 3.050200 ms  DeleteObjects: 0.169200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 443689.629911 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(efbda31d0fed628449a84ba5d3c3e135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer using Guid(efbda31d0fed628449a84ba5d3c3e135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6850257d5e2d2591c9dfe01464c81aa') in 0.159315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.276825 seconds.
+  path: Assets/GrassFlowers/Post-Processing For GrassFlowers.asset
+  artifactKey: Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Post-Processing For GrassFlowers.asset using Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c964b2f79ca6216133463116856ada') in 0.013872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.981287 seconds.
+  path: Assets/stone_floor_texture
+  artifactKey: Guid(fae9462d28d23494a8bd4dc4bba3e4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone_floor_texture using Guid(fae9462d28d23494a8bd4dc4bba3e4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc944ddd06418ba0d76fd681e0d02eb3') in 0.011048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049883 seconds.
+  path: Assets/stone_floor_texture/Stone_floor_09.mat
+  artifactKey: Guid(6f3b764d69dc4d04d8e2ce516d2dfaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone_floor_texture/Stone_floor_09.mat using Guid(6f3b764d69dc4d04d8e2ce516d2dfaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020a8a9108d75f61a9f242bca5e4f18a') in 0.174252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/stone_floor_texture/Stone_floor_09.png
+  artifactKey: Guid(6cac73f2a8fa6ce42b25c745285032ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone_floor_texture/Stone_floor_09.png using Guid(6cac73f2a8fa6ce42b25c745285032ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb6595e424f01b3624f46dec82c0350') in 0.030558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.467334 seconds.
+  path: Assets/stone_floor_texture/Materials
+  artifactKey: Guid(b8fd3e2eff4edaf49a5d315d599faa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone_floor_texture/Materials using Guid(b8fd3e2eff4edaf49a5d315d599faa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a6e7f2e06e004cd0cfac17588d4472') in 0.019178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046945 seconds.
+  path: Assets/stone_floor_texture/Materials/Stone_floor_09.mat
+  artifactKey: Guid(2f88b587caacdc849a630a83bfa3f046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone_floor_texture/Materials/Stone_floor_09.mat using Guid(2f88b587caacdc849a630a83bfa3f046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2195fd7c366570742a63f202b5154cfd') in 0.030240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 564.504280 seconds.
+  path: Assets/Object/Door 1
+  artifactKey: Guid(bc3f405f897b25c4099d139bdf856f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Door 1 using Guid(bc3f405f897b25c4099d139bdf856f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419d3ccf72ac75830dac0d119e23681a') in 0.032290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.885872 seconds.
+  path: Assets/Object/Mansion Object
+  artifactKey: Guid(78f6244ff297b074697314ab428423ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object using Guid(78f6244ff297b074697314ab428423ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc6661f47aab2c2c3654c4cef81b4c6') in 0.014008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.351216 seconds.
+  path: Assets/Object/Mansion Object/Chair
+  artifactKey: Guid(6c3eef31dd4ccea41b41d21d293775b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair using Guid(6c3eef31dd4ccea41b41d21d293775b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495d885a9b315850d90ddfe0b4be952c') in 0.020114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036525 seconds.
+  path: Assets/Object/Mansion Object/Chair/ch1.fbx
+  artifactKey: Guid(a69511a1d0218694094b96929693635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/ch1.fbx using Guid(a69511a1d0218694094b96929693635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b36c05d309c5511c5ded4dca16c212') in 0.184825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Object/Mansion Object/Chair/ch8.fbx
+  artifactKey: Guid(2a12425d4e7304f498851b1ea4807db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/ch8.fbx using Guid(2a12425d4e7304f498851b1ea4807db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72286b91d0e759dfa780d808c51e950d') in 0.025852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.430730 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures
+  artifactKey: Guid(9ee621cac7757d446b0d278ed53cd9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures using Guid(9ee621cac7757d446b0d278ed53cd9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ebdce4911d7e76638d7a2281ffed38') in 0.017290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.407954 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/ch1_dif.psd
+  artifactKey: Guid(81398350d1ab123488a541f1b5689b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/ch1_dif.psd using Guid(81398350d1ab123488a541f1b5689b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33644aaf9d9ed720b29341fe6f7bc979') in 0.023218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/ch1_spec.psd
+  artifactKey: Guid(8e13a50ef31cce54fa0d08c7e9d5f7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/ch1_spec.psd using Guid(8e13a50ef31cce54fa0d08c7e9d5f7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fa23103e2ae63e1795239afb673452') in 0.014667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_dif.psd
+  artifactKey: Guid(20b27674af6295746baa56b2b965ff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_dif.psd using Guid(20b27674af6295746baa56b2b965ff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff2f5200514c1e04677bd9757c3a691') in 0.016854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_v2_spec.psd
+  artifactKey: Guid(42d419fafb2d828478420d4484e015ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_v2_spec.psd using Guid(42d419fafb2d828478420d4484e015ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc91fa4dcb9552426ba32c6b06e8348c') in 0.019315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_v2_dif.psd
+  artifactKey: Guid(8547969e61a3a0741b22742c2e04b0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_v2_dif.psd using Guid(8547969e61a3a0741b22742c2e04b0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed04058d3972f8768612b78d26477ab') in 0.026528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_nm.psd
+  artifactKey: Guid(95b15dd61d3a71342b4af6b7bc05564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_nm.psd using Guid(95b15dd61d3a71342b4af6b7bc05564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a71486fb6284ecaef1c1bfecc4536f') in 0.022104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_spec.psd
+  artifactKey: Guid(ef75072fe045bf24b816c86357f8732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_spec.psd using Guid(ef75072fe045bf24b816c86357f8732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9e34d4a0e3e12e4c1556da8424c7c6') in 0.015966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_v3_nm.psd
+  artifactKey: Guid(aa883c9de8362d142884d49a5e88c77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_v3_nm.psd using Guid(aa883c9de8362d142884d49a5e88c77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7ce1e6d7a9c2f00653dedd85c3781c') in 0.016108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_v3_spec.psd
+  artifactKey: Guid(009e320734eea97489ab7b5432611114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_v3_spec.psd using Guid(009e320734eea97489ab7b5432611114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63474970edcfd92590d23cd9b179345e') in 0.016622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/ch1_nm.psd
+  artifactKey: Guid(4688ae779cfe0ef4481fd3cc6326cb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/ch1_nm.psd using Guid(4688ae779cfe0ef4481fd3cc6326cb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735e6e18ee6f775cde7dab3847cf1919') in 0.029734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_v2_nm.psd
+  artifactKey: Guid(97a0d37b883e2cd40b2277ff205993a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_v2_nm.psd using Guid(97a0d37b883e2cd40b2277ff205993a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cde25ab947ed5dbe9e07d495697537b') in 0.026214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Object/Mansion Object/Chair/Textures/Ch8_v3_dif.psd
+  artifactKey: Guid(b8a8f6c47b730fa4fa7f45bcc01784fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Mansion Object/Chair/Textures/Ch8_v3_dif.psd using Guid(b8a8f6c47b730fa4fa7f45bcc01784fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dd365dd03e3b86f924f35dd97c7ab9') in 0.018508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.209616 seconds.
+  path: Assets/3DForge/Fantasy_Interiors
+  artifactKey: Guid(9eeaaa15c91a2d144b11258c0a017dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors using Guid(9eeaaa15c91a2d144b11258c0a017dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdc96904b0c2e497d9297942d7b9d0c') in 0.018018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.092077 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns
+  artifactKey: Guid(7376ea841bd37984098c6b84a17d01bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns using Guid(7376ea841bd37984098c6b84a17d01bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab6576b8d974110f08f764186486d8a') in 0.015526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.002528 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs
+  artifactKey: Guid(0dc3b5dd123b24745a9acd3ea0ce86b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs using Guid(0dc3b5dd123b24745a9acd3ea0ce86b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c862067d038039b28a4049eebf4caa06') in 0.015751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.360926 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props
+  artifactKey: Guid(d0893c15437b0e443a3ef6c68c4597ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props using Guid(d0893c15437b0e443a3ef6c68c4597ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6408a07fd25157ce43c10aac2fefcce') in 0.015321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.010964 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields
+  artifactKey: Guid(f9a410c1877969a4a97fec13e8ba885e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields using Guid(f9a410c1877969a4a97fec13e8ba885e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e18e1410377f4dcbfb5fa0d17c29c4') in 0.016238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056349 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield01_a.prefab
+  artifactKey: Guid(fbfab0ae2ca4aca44904e6e3cf8f726b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield01_a.prefab using Guid(fbfab0ae2ca4aca44904e6e3cf8f726b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06b5d27870bd2b157fd22ae39a47047') in 0.023326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield08_b.prefab
+  artifactKey: Guid(f93dd3cab425a0e4fb1d5e0d0dd702a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield08_b.prefab using Guid(f93dd3cab425a0e4fb1d5e0d0dd702a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f41bdd8e95f540b6a8a97d8f99645f') in 0.019754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield08_c.prefab
+  artifactKey: Guid(a99af46db2b0aff4d925875d165e9dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield08_c.prefab using Guid(a99af46db2b0aff4d925875d165e9dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81569678ee0a73f9f23e665bc2d60437') in 0.018584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield06_a.prefab
+  artifactKey: Guid(80166c6c4af61be41afc8d5da8254299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield06_a.prefab using Guid(80166c6c4af61be41afc8d5da8254299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7bb715570e9967d6bab142d306ef9e') in 0.035321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield02_a.prefab
+  artifactKey: Guid(2a5b52d9e7dc2384ea6a52399e440299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield02_a.prefab using Guid(2a5b52d9e7dc2384ea6a52399e440299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e392d8eb8445f90bb039de2b907f1179') in 0.020853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield05_a.prefab
+  artifactKey: Guid(be6b7eb8095b9b24f93f3fa0b10891b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield05_a.prefab using Guid(be6b7eb8095b9b24f93f3fa0b10891b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042cdd9e680958607a17981eafefe28f') in 0.017895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield08_a.prefab
+  artifactKey: Guid(166ff3004741e294a8570ebfc2385bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield08_a.prefab using Guid(166ff3004741e294a8570ebfc2385bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee9bbe1face260231633324b106c8dc') in 0.017999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield09_c.prefab
+  artifactKey: Guid(1ced241fc385ee447bffc4b8888dd504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield09_c.prefab using Guid(1ced241fc385ee447bffc4b8888dd504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a85ee68e94fe57dbaa64d7b251980d') in 0.024987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield10_b.prefab
+  artifactKey: Guid(82d95c9225c688649a10b2000c2962ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield10_b.prefab using Guid(82d95c9225c688649a10b2000c2962ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a72fd48384184a11decbc0f6d0e31c') in 0.029249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield03_a.prefab
+  artifactKey: Guid(161b2a1421bcefa4e8a4c763b0adfc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield03_a.prefab using Guid(161b2a1421bcefa4e8a4c763b0adfc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9263ae565f74ec64106da963b0f1cf20') in 0.019598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield09_b.prefab
+  artifactKey: Guid(2c42d9a7e32b3144e9d428e929d35e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield09_b.prefab using Guid(2c42d9a7e32b3144e9d428e929d35e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b232725e4ad853ca5fd04cc439aac975') in 0.018903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield04_a.prefab
+  artifactKey: Guid(de9cd9612ba850c45b81fbf506bfaaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield04_a.prefab using Guid(de9cd9612ba850c45b81fbf506bfaaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8f8ebd40ff7e020d922ead5c5d9b64') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield10_a.prefab
+  artifactKey: Guid(9a8519de796e6fa48985b96f28ab1e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield10_a.prefab using Guid(9a8519de796e6fa48985b96f28ab1e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34007fdc10601ab61b123f070230cc58') in 0.019512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield10_d.prefab
+  artifactKey: Guid(ea7498808a3368a40a625f84c1fd12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield10_d.prefab using Guid(ea7498808a3368a40a625f84c1fd12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34076ee047171d2f84ce6723fa0ba7bd') in 0.032192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield10_c.prefab
+  artifactKey: Guid(24a3d9606fc062840af1a55f0851be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield10_c.prefab using Guid(24a3d9606fc062840af1a55f0851be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236cc21545a1977723e63c46f27ee6e8') in 0.019491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield09_a.prefab
+  artifactKey: Guid(6ae05b74ff7b61142acc3be514ff55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield09_a.prefab using Guid(6ae05b74ff7b61142acc3be514ff55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a32c12b9a0e433d18678f4ee83f8fd2') in 0.018000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield07_a.prefab
+  artifactKey: Guid(5e018199f6a604540bffe737772ac093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield07_a.prefab using Guid(5e018199f6a604540bffe737772ac093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1a68dc541181118aefa1a7606aa0a8') in 0.018744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield09_d.prefab
+  artifactKey: Guid(6db9dc1a9d61b6648a71440ab00bb8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield09_d.prefab using Guid(6db9dc1a9d61b6648a71440ab00bb8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afeab8882b69f584dfc789a35fc3d30') in 0.019963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield08_d.prefab
+  artifactKey: Guid(3eb926ed3589adb47873cb1790057798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Shields/fi_vil_shield08_d.prefab using Guid(3eb926ed3589adb47873cb1790057798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa69b85d66f9f1db986cb7c3270eb67') in 0.029901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.822222 seconds.
+  path: Assets/Old_USSR_Lamp
+  artifactKey: Guid(c8adb4b3e762f5c4c8ff36e3f4afad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp using Guid(c8adb4b3e762f5c4c8ff36e3f4afad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66936477f13c9d184cfdf7ca80d0d67b') in 0.016801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.905442 seconds.
+  path: Assets/Old_USSR_Lamp/Textures
+  artifactKey: Guid(28635b2be7e1a3d49bd4cc4ba1e13c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp/Textures using Guid(28635b2be7e1a3d49bd4cc4ba1e13c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8e79d5ce5ba1cc20a2cb717a870198') in 0.016635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057935 seconds.
+  path: Assets/Old_USSR_Lamp/Textures/Albedo.tga
+  artifactKey: Guid(86ac791186ac7184daa08fe84b243f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp/Textures/Albedo.tga using Guid(86ac791186ac7184daa08fe84b243f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543e5cbc8cb9332e3c7905d2ae67abc8') in 0.019692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Old_USSR_Lamp/Textures/MetallicSmoothness.tga
+  artifactKey: Guid(0d6a1bce8c2d9b249951e36f15ce9257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp/Textures/MetallicSmoothness.tga using Guid(0d6a1bce8c2d9b249951e36f15ce9257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1685e632f42aee77495c979424584eec') in 0.016365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Old_USSR_Lamp/Textures/Emission.tga
+  artifactKey: Guid(c2f5b3e682b719349a5443b2d5ce16d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp/Textures/Emission.tga using Guid(c2f5b3e682b719349a5443b2d5ce16d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34793c1b22e8e46bc248148fe503da88') in 0.014616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Old_USSR_Lamp/Textures/Normal.tga
+  artifactKey: Guid(2c7e27df8732d3d4fa74823467b9ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp/Textures/Normal.tga using Guid(2c7e27df8732d3d4fa74823467b9ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66ad8caa8a7f4b56fe1c378124e8a91') in 0.024956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Old_USSR_Lamp/Textures/Occlusion.tga
+  artifactKey: Guid(43efb8baf0e77b7458483aec15ad296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp/Textures/Occlusion.tga using Guid(43efb8baf0e77b7458483aec15ad296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e32e6b43f531516845c42d5ea8411c') in 0.022491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.003264 seconds.
+  path: Assets/Old_USSR_Lamp/Prefabs
+  artifactKey: Guid(a57d65a1bc2050148a22d47560c3017e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp/Prefabs using Guid(a57d65a1bc2050148a22d47560c3017e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe7d41f1cd7dcbd86e3d327784e4507') in 0.003218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059346 seconds.
+  path: Assets/Old_USSR_Lamp/Prefabs/Old_USSR_Lamp_01.prefab
+  artifactKey: Guid(20ffe5c18928a4c4594e9261db2333af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_USSR_Lamp/Prefabs/Old_USSR_Lamp_01.prefab using Guid(20ffe5c18928a4c4594e9261db2333af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4ab1864007d3b46e9873ff3d8723b4') in 0.024367 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009593 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2579ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1587ms)
+			LoadAssemblies (305ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.7 KB). Loaded Objects now: 3626.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 2.872700 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.406300 ms  DeleteObjects: 0.110000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.235207 seconds.
+  path: Assets/Scenes/SampleScene02.unity
+  artifactKey: Guid(8b08e266b8d7e6147b1f84a60b389bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene02.unity using Guid(8b08e266b8d7e6147b1f84a60b389bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab0de89fd27d4c5af08341dea90152') in 0.021919 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010029 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2443ms)
+		BeginReloadAssembly (441ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1806ms)
+			LoadAssemblies (430ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (563ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.7 KB). Loaded Objects now: 3629.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 6.664300 ms (FindLiveObjects: 0.443700 ms CreateObjectMapping: 0.256100 ms MarkObjects: 5.848400 ms  DeleteObjects: 0.114700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.071 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2072ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1656ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (538ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (729ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (501ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.8 KB). Loaded Objects now: 3632.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 4.150200 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.153200 ms MarkObjects: 3.423100 ms  DeleteObjects: 0.192400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.273460 seconds.
+  path: Assets/3DForge
+  artifactKey: Guid(71c00982371ff6f4594ef57304f6874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge using Guid(71c00982371ff6f4594ef57304f6874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b11a243d22475a03c651cf9729e750') in 0.022929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.675124 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs
+  artifactKey: Guid(7548bd17078152d48ae6631c10faae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs using Guid(7548bd17078152d48ae6631c10faae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7907952adfe06a5718da1e0958b47ceb') in 0.016035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041292 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs/if_vil_web02.prefab
+  artifactKey: Guid(d47636f63c2d5494491b20bf35c86a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs/if_vil_web02.prefab using Guid(d47636f63c2d5494491b20bf35c86a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3abf9bfda49b32755c488d29c6c1c37') in 0.080456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs/if_vil_web04.prefab
+  artifactKey: Guid(a8414aad68fdcf6469a87e0cf6597979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs/if_vil_web04.prefab using Guid(a8414aad68fdcf6469a87e0cf6597979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a824a43981d79f0481d3ded1503beb6') in 0.030327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs/if_vil_web03.prefab
+  artifactKey: Guid(1c5d9c1076e92064ea1e1afa2d813447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs/if_vil_web03.prefab using Guid(1c5d9c1076e92064ea1e1afa2d813447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d176f0095c081b749d3b1037680e56') in 0.028514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs/if_vil_web06.prefab
+  artifactKey: Guid(80df2cec57d4cfa418333fa1ce4c4c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Webs/if_vil_web06.prefab using Guid(80df2cec57d4cfa418333fa1ce4c4c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112bd46ddc0bfb2d4c0cbb21ce6c6a01') in 0.038873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.952245 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Woven
+  artifactKey: Guid(6cc9a4812a906c9469cd6f2d997c2a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Woven using Guid(6cc9a4812a906c9469cd6f2d997c2a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c05be192b7065508f2a7d8bc30052f0') in 0.024115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046939 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Woven/fi_vil_woven_carpet01a.prefab
+  artifactKey: Guid(4c9fe795b4ea61e479f840b993b00116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Woven/fi_vil_woven_carpet01a.prefab using Guid(4c9fe795b4ea61e479f840b993b00116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97375d5cecd3fd658dab24887ba2403') in 0.301518 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007696 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lập trình game\Game_Kinh_Dị3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.222 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2224ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1735ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (624ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (727ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.8 KB). Loaded Objects now: 3635.
+Memory consumption went from 130.5 MB to 130.4 MB.
+Total: 5.269300 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.136300 ms MarkObjects: 4.602700 ms  DeleteObjects: 0.188900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 285.773587 seconds.
+  path: Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Woven/fi_vil_woven_carpet01a.prefab
+  artifactKey: Guid(4c9fe795b4ea61e479f840b993b00116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DForge/Fantasy_Interiors/Villages_&_Towns/Prefabs/Props/Woven/fi_vil_woven_carpet01a.prefab using Guid(4c9fe795b4ea61e479f840b993b00116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d5e7a431eefbd6fc1273fcbdfafa6d') in 0.124157 seconds 
