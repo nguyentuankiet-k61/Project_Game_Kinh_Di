@@ -64,6 +64,7 @@
     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
     <Compile Include="Assets\Scripts\DoorOpen.cs" />
     <Compile Include="Assets\Scripts\PickUpPistol.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\VaseBreak.cs" />
     <Compile Include="Assets\Scripts\ZombieDeadth.cs" />
     <Compile Include="Assets\PBS Barrels and Crates\Scripts\DestroyOnClick.cs" />
     <Compile Include="Assets\PBS Barrels and Crates\Scripts\ExplodeBarrel.cs" />
@@ -86,7 +87,11 @@
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\Sequences\CubeTrigger01.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Scripts\Enviroment\VaseBreak.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\LockedDoor.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\keyPickUp.cs" />
+    <Compile Include="Assets\Scripts\GlobalInventory.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\MinorJump.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\CollideCan.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BlackantMasterStudio\The Shed\Shed_Anims.txt" />

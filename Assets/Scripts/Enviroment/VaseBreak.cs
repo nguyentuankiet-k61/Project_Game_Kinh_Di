@@ -10,6 +10,7 @@ public class VaseBreak : MonoBehaviour
     public GameObject sphereObject;
     public AudioSource potteryBreak;
     public GameObject keyObject;
+    public GameObject keyTrigger;
     public void DamageZombie(int damage)//phuong thuc tut mau
     {
         StartCoroutine(BreakVase());
@@ -19,6 +20,7 @@ public class VaseBreak : MonoBehaviour
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
         potteryBreak.Play();
         keyObject.SetActive(true);
+        keyTrigger.SetActive(true);
         fakeVase.SetActive(false);
         brokenVase.SetActive(true);
         yield return new WaitForSeconds(0.05f);
