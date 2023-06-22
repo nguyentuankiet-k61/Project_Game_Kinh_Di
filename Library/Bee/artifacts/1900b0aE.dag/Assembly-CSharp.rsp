@@ -364,6 +364,7 @@
 "Assets/PBS Barrels and Crates/Scripts/MoveCamForward.cs"
 "Assets/Scripts/AmmoPickUp.cs"
 "Assets/Scripts/DoorOpen.cs"
+"Assets/Scripts/Enviroment/VaseBreak.cs"
 "Assets/Scripts/FirePistol.cs"
 "Assets/Scripts/FlameAnimation.cs"
 "Assets/Scripts/GlobaAmmo.cs"

@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
+    <Compile Include="Assets\PBS Barrels and Crates\Scripts\MoveCamForward.cs" />
     <Compile Include="Assets\Scripts\Sequences\CubeTrigger.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
@@ -64,6 +65,8 @@
     <Compile Include="Assets\Scripts\DoorOpen.cs" />
     <Compile Include="Assets\Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\ZombieDeadth.cs" />
+    <Compile Include="Assets\PBS Barrels and Crates\Scripts\DestroyOnClick.cs" />
+    <Compile Include="Assets\PBS Barrels and Crates\Scripts\ExplodeBarrel.cs" />
     <Compile Include="Assets\Scripts\FirePistol.cs" />
     <Compile Include="Assets\Object\Apartment_Door\Scripts\KeyController.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
@@ -71,8 +74,11 @@
     <Compile Include="Assets\Scripts\Sequences\Sequences_01.cs" />
     <Compile Include="Assets\Scripts\Menus\SplashToMenu.cs" />
     <Compile Include="Assets\Scripts\AmmoPickUp.cs" />
+    <Compile Include="Assets\PBS Barrels and Crates\Scripts\DestroyBelowY.cs" />
     <Compile Include="Assets\Object\Apartment_Door\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
+    <Compile Include="Assets\PBS Barrels and Crates\Scripts\CrateGridBuilder.cs" />
+    <Compile Include="Assets\PBS Barrels and Crates\Scripts\DestroyOnHit.cs" />
     <Compile Include="Assets\Scripts\GlobaAmmo.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
     <Compile Include="Assets\Scripts\Sequences\FirstTrigger.cs" />
@@ -80,12 +86,7 @@
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\Sequences\CubeTrigger01.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\PBS Barrels and Crates\Scripts\DestroyOnClick.cs" />
-    <Compile Include="Assets\PBS Barrels and Crates\Scripts\MoveCamForward.cs" />
-    <Compile Include="Assets\PBS Barrels and Crates\Scripts\CrateGridBuilder.cs" />
-    <Compile Include="Assets\PBS Barrels and Crates\Scripts\DestroyBelowY.cs" />
-    <Compile Include="Assets\PBS Barrels and Crates\Scripts\ExplodeBarrel.cs" />
-    <Compile Include="Assets\PBS Barrels and Crates\Scripts\DestroyOnHit.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\VaseBreak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BlackantMasterStudio\The Shed\Shed_Anims.txt" />
