@@ -366,6 +366,7 @@
 "Assets/Scripts/DoorOpen.cs"
 "Assets/Scripts/Enviroment/CollideCan.cs"
 "Assets/Scripts/Enviroment/keyPickUp.cs"
+"Assets/Scripts/Enviroment/LeftEyePickUp.cs"
 "Assets/Scripts/Enviroment/LockedDoor.cs"
 "Assets/Scripts/Enviroment/MinorJump.cs"
 "Assets/Scripts/Enviroment/VaseBreak.cs"
@@ -380,6 +381,7 @@
 "Assets/Scripts/Sequences/CubeTrigger01.cs"
 "Assets/Scripts/Sequences/FirstTrigger.cs"
 "Assets/Scripts/Sequences/Sequences_01.cs"
+"Assets/Scripts/StalkerAI.cs"
 "Assets/Scripts/ZombieDeadth.cs"
 -langversion:9.0
 
