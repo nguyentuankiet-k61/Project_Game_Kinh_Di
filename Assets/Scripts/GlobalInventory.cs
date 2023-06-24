@@ -7,6 +7,7 @@ public class GlobalInventory : MonoBehaviour
     public static bool firstDoorKey = false;
     public bool internalDoorKey;
     public static bool leftEye = false;
+    public static bool rightEye = false;
     // Update is called once per frame
     void Update()
     {
