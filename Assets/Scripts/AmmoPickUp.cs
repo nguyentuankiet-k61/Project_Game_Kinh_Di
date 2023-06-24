@@ -10,6 +10,6 @@ public class AmmoPickUp : MonoBehaviour
     {
         AmmoBox.SetActive(false);
         AmmoPanel.SetActive(true);
-        GlobaAmmo.AmmoCount += 7;
+        GlobaAmmo.AmmoCount += 10;
     }
 }

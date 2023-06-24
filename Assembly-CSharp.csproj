@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
     <Compile Include="Assets\PBS Barrels and Crates\Scripts\MoveCamForward.cs" />
-    <Compile Include="Assets\Scripts\Sequences\CubeTrigger.cs" />
+    <Compile Include="Assets\Scripts\Sequences\BZJumpTrigger.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\FirePistol.cs" />
     <Compile Include="Assets\Object\Apartment_Door\Scripts\KeyController.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\LeftEyePickUp.cs" />
     <Compile Include="Assets\Scripts\Enviroment\CollideCan.cs" />
     <Compile Include="Assets\Scripts\FlameAnimation.cs" />
     <Compile Include="Assets\Scripts\Sequences\Sequences_01.cs" />
@@ -88,12 +89,13 @@
     <Compile Include="Assets\Object\Apartment_Door\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\GlobalInventory.cs" />
     <Compile Include="Assets\Scripts\Enviroment\MinorJump.cs" />
+    <Compile Include="Assets\Scripts\StalkerAI.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\Sequences\CubeTrigger01.cs" />
     <Compile Include="Assets\Scripts\Enviroment\LockedDoor.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Scripts\Enviroment\LeftEyePickUp.cs" />
-    <Compile Include="Assets\Scripts\StalkerAI.cs" />
+    <Compile Include="Assets\Scripts\ZombieAI.cs" />
+    <Compile Include="Assets\Scripts\GlobalHeallth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BlackantMasterStudio\The Shed\Shed_Anims.txt" />

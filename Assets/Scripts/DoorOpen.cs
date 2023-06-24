@@ -10,6 +10,7 @@ public class DoorOpen : MonoBehaviour
     public GameObject ActionText;
     public GameObject TheDoor;
     public AudioSource sound;
+    //public GameObject ExtraCross;
     // Update is called once per frame
     void Update()
     {
@@ -20,6 +21,7 @@ public class DoorOpen : MonoBehaviour
     {
         if(theDistance<3)
         {
+            //ExtraCross.SetActive(true);
             ActionDisplay.SetActive(true);
             ActionText.SetActive(true);
         }
@@ -38,6 +40,7 @@ public class DoorOpen : MonoBehaviour
     }
      void OnMouseExit()
     {
+        //ExtraCross.SetActive(false);
         ActionDisplay.SetActive(false);
         ActionText.SetActive(false);
     }

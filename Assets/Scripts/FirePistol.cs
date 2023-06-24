@@ -28,7 +28,7 @@ public class FirePistol : MonoBehaviour
     {
         RaycastHit hit;
         isFiring = true;
-        if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit) )
+        if (Physics.Raycast (transform.position, transform.TransformDirection(Vector3.forward), out hit) )
         {
             targetDistance = hit.distance;
             hit.transform.SendMessage("DamageZombie", damageAmount, SendMessageOptions.DontRequireReceiver);

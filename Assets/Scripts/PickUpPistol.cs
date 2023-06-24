@@ -12,6 +12,7 @@ public class PickUpPistol : MonoBehaviour
     public GameObject FakePistol;
     public GameObject RealPistol;
     public GameObject GuideArrow;
+    public GameObject TheJumpTrigger;
     void Update()
     {
         theDistance = PlayerCasting.DistanceFromTarget;
@@ -35,6 +36,7 @@ public class PickUpPistol : MonoBehaviour
                 FakePistol.SetActive(false);
                 RealPistol.SetActive(true);
                 GuideArrow.SetActive(false);
+                TheJumpTrigger.SetActive(true);
             }
 
         }
